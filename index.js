@@ -6,44 +6,64 @@ const generateMarkdown = require("./utils/generateMarkdown") //imports generatem
 
 // TODO: Create an array of questions for user input
 const questions = [
-{ type:"input",
-name: "title",
-message: "What is the title of your project?"
+    {
+        type: "input",
+        name: "title",
+        message: "What is the title of your project?"
+
+    }, {
+        type: "input",
+        name: "description",
+        message: "Can you provide a description of your project?"
+
+    }, {
+        type: "input",
+        name: "install",
+        message: "What installations did you use?"
+
+    }, {
+        type: "input",
+        name: "usage",
+        message: "What usage did you use?"
+
+    }, {
+        type: "input",
+        name: "contributing",
+        message: "Who contributed to your project?"
 
 
+    }, {
+        type: "input",
+        name: "tests",
+        message: "Were any tests ran with this project?"
 
-},{ type:"input",
-name: "github",
-message: "What is the github of your project?"
+    }, {
+        type: "input",
+        name: "url",
+        message: "What is your project's live link?"
 
+    }, {
+        type: "list",
+        name: "license",
+        message: "What license did you use?",
+        choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
 
-
-},{ type:"input",
-name: "email",
-message: "What is your email?"
-
-
-
-}
-
-
+    }
 
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-return fs.writeFileSync(path.join(process.cwd(), fileName), data)
-// use fs to sync, path after to join to current working directory then add file name and data //
-
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data)
+    // use fs to sync, path after to join to current working directory then add file name and data //
 }
 
 // TODO: Create a function to initialize app
 function runApp() {
-inquirer.prompt(questions).then(function(responses){
-    writeToFile("README.md", generateMarkdown({...responses}))
-//inq use prompt (built in) questions - THEN pipe to responses, write a file and data is used to generate markdown git s\
-})
-
+    inquirer.prompt(questions).then(function (responses) {
+        writeToFile("README.md", generateMarkdown({ ...responses }))
+        //inq use prompt (built in) questions - THEN pipe to responses, write a file and data is used to generate markdown git s\
+    })
 }
 
 // Function call to initialize app
