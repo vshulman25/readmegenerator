@@ -34,7 +34,8 @@ function generateMarkdown(data) {
    ## Installation - \n* ${data.install} \n
    ## Contributing - \n* ${data.contributing} \n
    ## Tests - \n* ${data.tests} \n
-   ## Link Link - \n ${data.url} \n
+   ## Live Link - \n ${data.url} \n
+   ## Questions - \n* ${data.github}, ${data.email} \n
 `;
 }
 
