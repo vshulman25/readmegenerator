@@ -19,12 +19,7 @@ const questions = [
     }, {
         type: "input",
         name: "install",
-        message: "What installations did you use?"
-
-    }, {
-        type: "input",
-        name: "usage",
-        message: "What usage did you use?"
+        message: "What installations were used?"
 
     }, {
         type: "input",
@@ -35,7 +30,7 @@ const questions = [
     }, {
         type: "input",
         name: "tests",
-        message: "Were any tests ran with this project?"
+        message: "Were any tests ran?"
 
     }, {
         type: "input",
