@@ -29,13 +29,13 @@ function generateMarkdown(data) {
   ${renderLicenseBadge(data.license)}
   ${renderLicenseSection(data.license)}
   ${renderLicenseLink(data.license)}
-  # Project Title - \n ${data.title} \n
+  # Project Title -  ${data.title} 
    ## Description - \n* ${data.description} \n
    ## Installation - \n* ${data.install} \n
    ## Contributing - \n* ${data.contributing} \n
    ## Tests - \n* ${data.tests} \n
-   ## Live Link - \n ${data.url} \n
-   ## Questions - \n* ${data.github}, ${data.email} \n
+   ## Live Link - \n* ${data.url} \n
+   ## Questions - \n* Check out my GitHub - ${data.github} \n* Email me - ${data.email} \n
 `;
 }
 
