@@ -18,7 +18,7 @@ function renderLicenseLink(license) {
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
-  return `# License - ${license}
+  return `### License - ${license}
   
   `;
 }
@@ -34,7 +34,7 @@ function generateMarkdown(data) {
    ## Installation - \n* ${data.install} \n
    ## Contributing - \n* ${data.contributing} \n
    ## Tests - \n* ${data.tests} \n
-   ![Live Link] \n* ${data.url} \n
+   ![Live Link]- ${data.url}
 `;
 }
 
