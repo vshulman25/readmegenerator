@@ -1,12 +1,10 @@
-
-  ![License](https://img.shields.io/badge/License-MIT%20-blue.svg)
-  ### License - MIT
+### License - None
   
   
-  ![License Link](https://opensource.org/licenses/MIT-.org/)
-  # Project Title -  README Generator 
+  ![License Link](https://opensource.org/licenses/None-.org/)
+  # Project Title -  README Generator - HW 9 
    ## Description - 
-* This will create a README file for the user with ease! 
+* This helps a user quickly create a good README! 
 
    ## Installation - 
 * Node, NPM Libraries 
@@ -19,6 +17,8 @@
 
    ## Live Link - 
 * www.github.com 
+
+![Live GIF](NewReadME.gif)
 
    ## Questions - 
 * Check out my GitHub - www.github.com/vshulman25 
