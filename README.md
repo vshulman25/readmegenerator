@@ -1,24 +1,26 @@
 
-  ![License](https://img.shields.io/badge/License-MIT%20-blue.svg)
-  ### License - MIT
+  undefined
+  ### License - None
   
   
-  ![License Link](https://opensource.org/licenses/MIT-.org/)
-  # Project Title -  test 11 
+  ![License Link](https://opensource.org/licenses/None-.org/)
+  # Project Title -  README Generator - HW9 
    ## Description - 
-* will be uploading this one, lets see if it works  
+* As a developer, I need to be efficient with my time and show that in my work - providing a good README is essential to do so.
+* This application creates that file for the user, allows them input their specifications. 
+* If used as a starter template and the user could add screenshots, future development and other customizations.  
 
    ## Installation - 
-* npm libs 
+* NPM Libraries, VS Code 
 
    ## Contributing - 
-* VSW 
+* Victoria Shulman 
 
    ## Tests - 
-* this and others 
+* None 
 
    ## Live Link - 
-* https://github.com/vshulman25/readmegenerator 
+* https://vshulman25.github.io/readmegenerator/ 
 
    ## Questions - 
 * Check out my GitHub - https://github.com/vshulman25 
